@@ -62,6 +62,3 @@ def test___str__():
     tv.channel_up()
     tv.volume_up()
     assert str(tv) == f'Power = True, Channel = {tv.get_channel()}, Volume = {tv.get_volume()}'
-
-def test():
-    pass

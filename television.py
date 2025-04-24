@@ -92,7 +92,5 @@ class Television:
 
     def get_is_muted(self):
         return self.__muted
-def testing():
-    pass
 
 
