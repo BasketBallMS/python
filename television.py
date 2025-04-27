@@ -80,15 +80,3 @@ class Television:
 
     def __str__(self)-> str:
         return f'Power = {self.__status}, Channel = {self.__channel}, Volume = {self.__volume}'
-
-    def get_volume(self):
-        return self.__volume
-
-    def get_channel(self):
-        return self.__channel
-
-    def get_is_power_on(self):
-        return self.__status
-
-    def get_is_muted(self):
-        return self.__muted
