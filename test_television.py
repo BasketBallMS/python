@@ -8,9 +8,9 @@ def test___init__():
 def test_power():
     tv = Television()
     tv.power()
-    assert tv.get_is_power_on() == True
+    assert tv.__str__() == 'Power = True, Channel = 0, Volume = 0'
     tv.power()
-    assert tv.get_is_power_on() == False
+    assert tv.__str__() == 'Power = False, Channel = 0, Volume = 0'
 
 def test_mute():
     tv = Television()
